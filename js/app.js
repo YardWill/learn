@@ -1,1 +1,2 @@
-require('./nuique.js');
+// require('./pachong/pachong.js');
+require('./bibao.js')
