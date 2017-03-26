@@ -1,7 +1,8 @@
+//tasks.json
 {
     "version": "0.1.0",
     "command": "g++",
-    "args": ["-g","${file}","-o","${file}.exe"],    // 编译命令参数
+    "args": ["-g", "${file}", "-o", "${file}.out"],
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "${workspaceRoot}"],
