@@ -3,6 +3,7 @@ function cr() {
 
     for(var i = 0; i < 10; i++){
         re[i] = function(){
+            const a = 1;
             return i;
         }
     }

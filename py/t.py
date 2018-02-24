@@ -2,6 +2,7 @@ s = input()
 l = len(s)
 kk = 0
 sett = set()
+
 for i in range(0,l/2):
   for j in range(0,l/2):
     a = s[i:l-j]
@@ -19,5 +20,6 @@ for i in range(0,l/2):
           if(jj > kk):
             kk = jj
           break
+
 print(kk)
 
