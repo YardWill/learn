@@ -2,17 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C++ Launch (GDB)",
+            "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "launchOptionType": "Local",
-            "targetArchitecture": "x64",
-            "program": "${file}.out",
+            "program": "${workspaceFolder}/a.out",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceRoot}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true
-        }
+            "externalConsole": true,
+            "MIMode": "lldb"
+        },
     ]
 }

@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "ts-node"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ts-loader": "^3.2.0",
+    "ts-node": "^7.0.1",
     "typescript": "^2.6.2"
   }
 }
